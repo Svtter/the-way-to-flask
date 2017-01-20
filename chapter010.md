@@ -12,7 +12,7 @@
 
 就直接安装上了 Flask-Admin 扩展，然后等待后续使用
  
-## 初始化 Flsak-Admin
+## 初始化 Flask-Admin
 
 和其他常见扩展一般，Flask-Admin 还是需要和我们的 app 服务器绑定，所以还是老套路，但是，因为我们规范化了我们的目录结构，所以这里我们需要注意的是，创建 Flask-Admin 对象要放在 application/extensions.py 文件中，所以在我们的 application/extensions.py 中已经写入以下语句：
 
